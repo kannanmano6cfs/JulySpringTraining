@@ -6,7 +6,7 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copy the application JAR file to the container
-COPY target/your-spring-boot-app.jar app.jar
+COPY target/com.ameyrupji.helloworld-1.0-SNAPSHOT.jar app.jar
 
 # Expose the port the app runs on
 EXPOSE 8080
